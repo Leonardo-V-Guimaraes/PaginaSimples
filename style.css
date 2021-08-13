@@ -1,6 +1,6 @@
 html, body, h1, h2, h3, h4, ul, li {
-	margin: 1%;
-padding: 1px;
+	margin: 0;
+padding: 0;
 }
 h1 img {
 	display: block;
@@ -39,9 +39,10 @@ body {
 #wrapper {
 	text-align: left;
 	margin: 37px auto;
-	width: 100%;
+	width: 672px;
 	background: #ffffff;
   position: relative;
+  min-width: 700px;
 	}
 
 #header {
@@ -188,80 +189,80 @@ h2 {
   padding: 7px 0 8px 35px;
 }
 #categories a {
-  text-decoration: ;
-  color: ;
+  text-decoration: none;
+  color: black;
 }
 #categories a:hover {
-  text-decoration: ;
+  text-decoration: underline;
 }
 
 #collection {
-  background: ;
+  background: #D4CAB6 bottom right url(images/person_bg.jpg) no-repeat;
 }
 #collection .inner {
-  padding-right: ;
+  padding-right: 98px;
 }
 #minigal {
-  float: ;
-  width: ;
-  margin-top: ;
-  margin-bottom: ;
+  float: right;
+  width: 222px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 #minigal div {
-  float: ;
-  margin: ;
+  float: left;
+  margin: 6px;
 }
 #collection ul {
-  margin-left: ;
+  margin-left: 1.5em;
 }
 #collection li {
-  margin: ;
-  color: ;
-  font-size: ;
-  font-weight: ;
-  font-family: ;
+  margin: 0.2em 0;
+  color: #463F32;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "arial narrow", arial, sans-serif;
 }
 #collection p {
-  width: ;
-  margin-left: ;
+  width: 103px;
+  margin-left: 1.5em;
 }
 
 #seas-one, #seas-two, #seas-three {
-  height: ;
+  height: 146px;
 }
 
 #seas-one {
-  float: ;
-  width: ;
-  margin-right: ;
-  background: ;
+  float: left;
+  width: 195px;
+  margin-right: 3px;
+  background: url(images/foot_1.jpg) no-repeat;
 }
 #seas-two {
-  float: ;
-  width: ;
-  margin-right: ;
-  background: ;
+  float: left;
+  width: 249px;
+  margin-right: 3px;
+  background: url(images/foot_2.jpg) no-repeat;
 }
 #seas-three {
-  float: ;
-  width: ;
-  background: ;
+    float: left;
+    width: 222px;
+    background: url(images/foot_3.jpg) no-repeat;
 }
 
 #seas p {
-  text-align: ;
-  color: ;
-  margin: ;
-  font-size: ;
-  font-weight: ;
+  text-align: right;
+  color: #000;
+  margin: 80px 15px 0 0;
+  font-size: 23px;
+  font-weight: bold;
 }
 #seas p.date {
-  margin-top: ;
-  font-size: ;
+    margin-top: 0;
+    font-size: 16px;
 }
 
 #copyright {
-  text-align: ;
-  font-size: ;
-  padding: ;
+  text-align: center;
+  font-size: 9px;
+  padding: 3px;
 }
